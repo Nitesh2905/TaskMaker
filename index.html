@@ -20,9 +20,16 @@
       <button type="submit" class="todo_botton">
         <i class="fas fa-plus-square"></i>
       </button>
+      <div class="select">
+        <select name="todos" class="filter_todo">
+          <option value="all">All</option>
+          <option value="completed">Completed</option>
+          <option value="uncompleted">UnCompleted</option>
+        </select>
+      </div>
     </form>
     <div class="todo_container">
-      <ul class="todo-list"></ul>
+      <ul class="todo_list"></ul>
     </div>
   </body>
   <script src="script.js"></script>
