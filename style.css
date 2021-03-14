@@ -150,3 +150,13 @@ select{
   background: white;
   color: rgb(250, 154, 11);
 }
+
+@media only screen and  (min-width:320px) and (max-width:600px){
+  form input{
+    width:45%;
+  }
+
+  .select{
+    width: 25%;
+  }
+}
